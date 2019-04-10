@@ -4,11 +4,8 @@ object galvan {
 	// le agrega al objeto: un atributo, el método para acceder, y el método para modificar.
 
 	var property sueldo = 15000
-	
-	var cajaAhorro = 0
 
 	method cobrarSueldo() {
-		cajaAhorro += self.sueldo()
 	}
 		
 }
